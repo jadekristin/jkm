@@ -30,17 +30,11 @@ main {
 h1 {
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 40px;
-	color: #e9b7b7;
+	color: #20e347;
 }
 
 h2 {
 	font-family: 'Sawarabi Gothic', sans-serif;
 	color: #414347;
-	/**background-color: #fcf4ef;**/
 	word-spacing: 75px;
-}
-
-body {
-	background-image: url('../img/home-image.jpg');
-	background-size: cover;
 }
