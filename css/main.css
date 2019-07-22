@@ -1,3 +1,5 @@
+/** BASE **/
+
 .container {
 	width: 1200px;
 	height: auto;
@@ -32,25 +34,47 @@ h1 {
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 140px;
 	color: #414347;
+	opacity: 0.8;
 }
 
+/** GRID **/
+
 .grid {
-	display: block;
+	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-areas: 'j k m';
+	grid-template-areas: "j k m";
+	margin-top: 200px;
 }
 
 .item-j {
 	grid-area: j;
+	margin: 0 auto;
 }
 
 .item-k {
 	grid-area: k;
+	margin: 0 auto;
 }
 
 .item-m {
 	grid-area: m;
+	margin: 0 auto;
 }
+
+/** ANIMATION **/
+
+@keyframes initials {
+	0% {width: 0%;}
+	100% {width: 100%;}
+}
+
+.item-j, .item-k, .item-m {
+	animation-name: initials;
+	animation: 3s span(400 0);
+}
+
+
+
 
 
 
