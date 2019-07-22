@@ -2,9 +2,11 @@
 	width: 1200px;
 	height: auto;
 	margin: 0 auto;
+	background-image: url('file:///Users/jadekristinmack/Desktop/JKM/img/hero.jpg');
+	background-size: cover;
 }
 
-/***** HEADER *****/
+/***** 
 
 header nav {
 	float: right
@@ -20,21 +22,35 @@ header nav ul li a {
 	font-family: 'Sawarabi Gothic', sans-serif;
 	color: #414347;
 }
+ *****/
 
-/***** MAIN *****/
-
-main {
+/*main {
 	clear: both;
-}
+}*/
 
 h1 {
 	font-family: 'Nothing You Could Do', cursive;
-	font-size: 40px;
-	color: #20e347;
+	font-size: 140px;
+	color: #414347;
 }
 
-h2 {
-	font-family: 'Sawarabi Gothic', sans-serif;
-	color: #414347;
-	word-spacing: 75px;
+.grid {
+	display: block;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: 'j k m';
 }
+
+.item-j {
+	grid-area: j;
+}
+
+.item-k {
+	grid-area: k;
+}
+
+.item-m {
+	grid-area: m;
+}
+
+
+
