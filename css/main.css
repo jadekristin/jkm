@@ -6,70 +6,48 @@
 	margin: 0 auto;
 	background-image: url('file:///Users/jadekristinmack/Desktop/JKM/img/hero.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
-/***** 
+/** NAV **/
 
 header nav {
 	float: right
 }
 
-header nav ul li {
+nav ul {
 	display: inline;
+}
+
+nav li {
+	word-spacing: 3em;
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Josefin Slab', serif;
+	color: #414347;
+	font-size: 20px;
 	text-transform: lowercase;
 }
 
-header nav ul li a {
-	text-decoration: none;
-	font-family: 'Sawarabi Gothic', sans-serif;
-	color: #414347;
-}
- *****/
-
-/*main {
+main {
 	clear: both;
-}*/
+}
 
 h1 {
-	font-family: 'Nothing You Could Do', cursive;
+	font-family: 'Poiret One', cursive;
 	font-size: 140px;
 	color: #414347;
-	opacity: 0.8;
+	opacity: 0.5;
 }
 
-/** GRID **/
-
-.grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-areas: "j k m";
-	margin-top: 200px;
-}
-
-.item-j {
-	grid-area: j;
-}
-
-.item-k {
-	grid-area: k;
-}
-
-.item-m {
-	grid-area: m;
-}
-
-/** ANIMATION **/
-
-@keyframes initials {
-	0% {width: 0%;}
-	100% {width: 100%;}
-}
-
-.item-j, .item-k, .item-m {
-	overflow: hidden;
-	white-space: nowrap;
-	animation: initials 3s steps(400, end);
-	/*animation-fill-mode: forwards;*/
+.initials {
+	position: absolute;
+	bottom: -110px;
+	left: 40px;
 }
 
 
