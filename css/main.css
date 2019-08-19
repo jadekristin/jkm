@@ -1,40 +1,35 @@
-/** BASE **/
-
 .container {
-	width: 1200px;
+	width: 1438px;
 	height: auto;
 	margin: 0 auto;
-	background-image: url('file:///Users/jadekristinmack/Desktop/JKM/img/hero.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	overflow: hidden;
 }
 
-/** NAV **/
+/** HEADER **/
+
+header {
+	background: url('file:///Users/jadekristinmack/Desktop/JKM/img/hero.jpg');
+	background-size: cover;
+	height: 825px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 header nav {
 	float: right
 }
 
-nav ul {
+nav ul li {
 	display: inline;
 }
 
-nav li {
-	word-spacing: 3em;
-	list-style: none;
-}
-
-nav a {
+nav ul li a {
 	text-decoration: none;
 	font-family: 'Josefin Slab', serif;
 	color: #414347;
 	font-size: 20px;
 	text-transform: lowercase;
-}
-
-main {
-	clear: both;
+	padding: 10px;
+	margin: 10px;
 }
 
 h1 {
@@ -48,6 +43,163 @@ h1 {
 	position: absolute;
 	bottom: -110px;
 	left: 40px;
+}
+
+/** ABOUT **/
+
+#about {
+	clear: both;
+	background-color: #38651E;
+	height: 800px;
+}
+
+.headshot {
+	float: left;
+	border-radius: 80px;
+	width: 23%;
+	padding: 10px;
+}
+
+section {
+	border-top: 5px solid white;
+}
+
+p {
+	display: inline-block;
+}
+
+.personal {
+	padding: 2px 6px;
+}
+
+.fredericka {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 3em;
+	line-height: 0.5em;
+}
+
+.martel {
+	font-family: 'Martel', serif;
+	font-size: 3em;
+	line-height: 0.5em;
+}
+
+.amaranth {
+	font-family: 'Amaranth', sans-serif;
+	font-size: 3em;
+	line-height: 0.5em;
+}
+
+.ui-ux {
+	color: white;
+	font-size: 3.5em;
+	font-family: 'Poiret One', cursive;
+}
+
+.opacity-one {
+	color: white;
+	opacity: 0.7;
+}
+
+.opacity-two {
+	color: white;
+	opacity: 0.5;
+}
+
+.opacity-three {
+	color: white;
+	opacity: 0.3;
+}
+
+.outline {
+	color: #38651E;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	position: absolute;
+	z-index: 1;
+	font-size: 30px;
+	width: 300px;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	padding: 4px;
+	text-align: center;
+	opacity: 0.7;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+/** WORK**/
+
+#work {
+	background-color: #1E2D16;
+	height: 800px;
+}
+
+h3 {
+	font-size: 200px;
+	color: white;
+	opacity: 0.1;
+	text-align: center;
+}
+
+/** CONTACT **/
+
+#contact {
+	background-color: #4B8D26;
+	height: 800px;
+}
+
+h2 {
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	font-size: 80px;
+	line-height: 275px;
+}
+
+.fab, .far, .fas {
+	font-size: 50px;
+}
+
+.half-height {
+	height: 270px;
+	border-bottom: 1px solid white;
+	margin-bottom: 40px;
+}
+
+.location, .email, .social-media {
+	width: 470px;
+	float: left;
+	text-align: center;
+}
+
+.location, .email {
+	border-right: 1px solid white;
+	font-family: 'Josefin Slab', serif;
+	font-size: 25px;
+}
+
+ul li {
+	list-style: none;
+}
+
+li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a {
+	font-family: 'Josefin Slab', serif;
 }
 
 
