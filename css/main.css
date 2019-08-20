@@ -53,13 +53,6 @@ h1 {
 	height: 800px;
 }
 
-.headshot {
-	float: left;
-	border-radius: 80px;
-	width: 23%;
-	padding: 10px;
-}
-
 section {
 	border-top: 5px solid white;
 }
@@ -69,7 +62,7 @@ p {
 }
 
 .personal {
-	padding: 2px 6px;
+	padding: 5px 10px;
 }
 
 .fredericka {
@@ -137,6 +130,17 @@ p {
 
 .tooltip:hover .tooltiptext {
 	visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+	content: " ";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent black transparent;
 }
 
 /** WORK**/
